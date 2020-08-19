@@ -14,8 +14,6 @@ $("#3pm.description").val(localStorage.getItem("3pm"));
 $("#4pm.description").val(localStorage.getItem("4pm"));
 $("#5pm.description").val(localStorage.getItem("5pm"));
 
-
-
 function hourTracker () {
 
     var currenthour = moment().hour();
