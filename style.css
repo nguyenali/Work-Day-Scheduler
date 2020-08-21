@@ -9,8 +9,8 @@ textarea{
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  border: 1px solid black;
+  padding: 30px;
 }
 
 .jumbotron {
@@ -58,11 +58,14 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border bottom: ;: 1px solid black;
+  padding: 30px;
+  cursor: pointer;
+  
 }
 
 .saveBtn i:hover {
