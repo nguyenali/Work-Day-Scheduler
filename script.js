@@ -1,3 +1,17 @@
+$(document).ready(function() {
+
+
+    $("currenDay").text(moment().format("MMMM Do YYYY, h:mm:ssa"));
+
+    $(".saveBtn").on("click", function() {
+        console.log(this);
+        var text= $(this).siblings(".description").val();
+        var time =$(this).parent().attr("id");
+
+        localStorage.setItem(time,text);
+    })
+
+
 
 
 
@@ -13,6 +27,10 @@ $("#14th-hourdescription").val(localStorage.getItem("14th-hour"));
 $("#15th-hour.description").val(localStorage.getItem("15th-hour"));
 $("#16th-hour.description").val(localStorage.getItem("16th-hour"));
 $("#17th-hour.description").val(localStorage.getItem("17th-hour"));
+
+
+
+
 
 function hourTracker () {
 
@@ -43,10 +61,6 @@ function hourTracker () {
             $(this).removeClass("present");
             }
         }
-    }
-
-
-
     })
 
 
@@ -55,3 +69,5 @@ function hourTracker () {
    
 
 hourTracker();
+
+})
