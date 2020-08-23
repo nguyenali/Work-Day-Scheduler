@@ -58,13 +58,11 @@ textarea{
 }
 
 .saveBtn {
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border bottom: ;: 1px solid black;
-  padding: 30px;
-  cursor: pointer;
+  background-color: #06AED5;
+  color: white;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-left: 1px solid black;
   
 }
 
@@ -72,3 +70,4 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
