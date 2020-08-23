@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    $("currenDay").text(moment().format("MMMM Do YYYY, h:mm:ssa"));
+    $("currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
     $(".saveBtn").on("click", function() {
         console.log(this);
@@ -20,10 +20,10 @@ $(document).ready(function() {
 //Load saved data from LocalStorage
 $("#9th-hour.description").val(localStorage.getItem("9th-hour"));
 $("#10th-hour.description").val(localStorage.getItem("10th-hour"));
-$("#11th-hour.description").val(localStorage.getItem("11th-hou"));
+$("#11th-hour.description").val(localStorage.getItem("11th-hour"));
 $("#12th-hour.description").val(localStorage.getItem("12th-hour"));
 $("#13th-hour.description").val(localStorage.getItem("13th-hour"));
-$("#14th-hourdescription").val(localStorage.getItem("14th-hour"));
+$("#14th-hour.description").val(localStorage.getItem("14th-hour"));
 $("#15th-hour.description").val(localStorage.getItem("15th-hour"));
 $("#16th-hour.description").val(localStorage.getItem("16th-hour"));
 $("#17th-hour.description").val(localStorage.getItem("17th-hour"));
