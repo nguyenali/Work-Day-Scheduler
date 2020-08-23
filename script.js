@@ -32,7 +32,7 @@ $("#17th-hour .description").val(localStorage.getItem("17th-hour"));
 
 
 
-function hourTracker () {
+function hourTracker() {
 
     var currenthour = moment().hour();
 
@@ -68,6 +68,6 @@ function hourTracker () {
 
    
 
-hourTracker();
+    hourTracker();
 
 })
