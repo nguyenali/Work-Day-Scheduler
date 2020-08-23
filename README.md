@@ -12,7 +12,7 @@ A web calendar that serves as a planner and schedule builder that allows user to
 * CSS
 
 ## Website
-add in website link
+https://nguyenali.github.io/Work-Day-Scheduler/
 
 ## Contribution
 Made with ❤️ Ali Nguyen
