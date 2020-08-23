@@ -1,6 +1,7 @@
 # Work-Day-Scheduler
 
-To add in image after finish projec
+![Screen Shot 3 ](https://user-images.githubusercontent.com/67357469/90972555-e4213980-e4ce-11ea-86bd-16f2c22a9978.jpg)
+
 
 
 
