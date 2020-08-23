@@ -1,20 +1,17 @@
 $(document).ready(function() {
 
-
+    //Displaying current date and time on webpage
     $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
-
+    
+    //Have button listen for when clicked
     $(".saveBtn").on("click", function() {
         console.log(this);
         var text= $(this).siblings(".description").val();
         var time =$(this).parent().attr("id");
-
+   
+    //Set tasks in local storage
         localStorage.setItem(time, text);
     })
-
-
-
-
-
 
 
     //Load saved data from LocalStorage
@@ -30,24 +27,23 @@ $(document).ready(function() {
 
 
 
-
-
     function hourTracker() {
-
+    //Get current hour numbers
         var currenthour = moment().hour();
 
-
+    //time block loop
         $(".time-block").each(function () {
         var blockHour = parseInt($(this).attr("id").split("hour")[1]);
         console.log(blockHour,currenthour)
 
-
+    //Condition checking if task has moved past this current time
         if(blockHour < currenthour) {
             $(this).addClass("past");
             $(this).removeClass("future");
             $(this).removeClass("present");
             }
     
+        
         else if (blockHour === currenthour) {
             $(this).removeClass("past");
             $(this).removeClass("future");
@@ -63,10 +59,6 @@ $(document).ready(function() {
         })
     }
 
-
-
-
-   
 
     hourTracker();
 
