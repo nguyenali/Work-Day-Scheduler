@@ -18,15 +18,15 @@ $(document).ready(function() {
 
 
 //Load saved data from LocalStorage
-$("#9th-hour .description").val(localStorage.getItem("9th-hour"));
-$("#10th-hour .description").val(localStorage.getItem("10th-hour"));
-$("#11th-hour .description").val(localStorage.getItem("11th-hour"));
-$("#12th-hour .description").val(localStorage.getItem("12th-hour"));
-$("#13th-hour .description").val(localStorage.getItem("13th-hour"));
-$("#14th-hour .description").val(localStorage.getItem("14th-hour"));
-$("#15th-hour .description").val(localStorage.getItem("15th-hour"));
-$("#16th-hour .description").val(localStorage.getItem("16th-hour"));
-$("#17th-hour .description").val(localStorage.getItem("17th-hour"));
+$("#hour9 .description").val(localStorage.getItem("hour9"));
+$("#hour10 .description").val(localStorage.getItem("hour10"));
+$("#hour11 .description").val(localStorage.getItem("hour11"));
+$("#hour12 .description").val(localStorage.getItem("hour12"));
+$("#hour13 .description").val(localStorage.getItem("hour13"));
+$("#hour14 .description").val(localStorage.getItem("hour14"));
+$("#hour15 .description").val(localStorage.getItem("hour15"));
+$("#hour16 .description").val(localStorage.getItem("hour16"));
+$("#hour17 .description").val(localStorage.getItem("hour17"));
 
 
 
