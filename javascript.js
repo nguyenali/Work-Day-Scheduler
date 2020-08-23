@@ -14,21 +14,21 @@ $(document).ready(function() {
     })
 
 
-    //Load saved data from LocalStorage
-    $("#9am .description").val(localStorage.getItem("9am"));
-    $("#10am .description").val(localStorage.getItem("10am"));
-    $("#11am .description").val(localStorage.getItem("11am"));
-    $("#12pm .description").val(localStorage.getItem("12pm"));
-    $("#1pm.description").val(localStorage.getItem("1pm"));
-    $("#2pm.description").val(localStorage.getItem("2pm"));
-    $("#3pm .description").val(localStorage.getItem("3pm"));
-    $("#4pm .description").val(localStorage.getItem("4pm"));
-    $("#5pm .description").val(localStorage.getItem("5pm"));
+    //To load data saved from LocalStorage
+    $("#9th-hour .description").val(localStorage.getItem("9th-hour"));
+    $("#10th-hour .description").val(localStorage.getItem("10th-hour"));
+    $("#11th-hour .description").val(localStorage.getItem("11th-hour"));
+    $("#12th-hour .description").val(localStorage.getItem("12th-hour"));
+    $("#13th-hour .description").val(localStorage.getItem("13th-hour"));
+    $("#14th-hour .description").val(localStorage.getItem("14th-hour"));
+    $("#15th-hour .description").val(localStorage.getItem("15th-hour"));
+    $("#16th-hour .description").val(localStorage.getItem("16th-hour"));
+    $("#17th-hour .description").val(localStorage.getItem("17th-hour"));
 
 
 
     function hourTracker() {
-    //Get current hour numbers
+    
         var currenthour = moment().hour();
 
     //time block loop
